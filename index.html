@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>HI Spectral Fitting Results of the LMC from GASKAP-HI survey</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+<style>
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    margin: 20px;
+    line-height: 1.5;
+  }
+  h1, h2 {
+    text-align: center;
+  }
+  .center {
+    text-align: center;
+  }
+
+  /* Make all hyperlinks blue */
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: #004c99;
+  }
+
+  .button {
+    display: inline-block;
+    background-color: #0078d7;
+    color: white !important;    /* keep button text white */
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .button:hover {
+    background-color: #005fa3;
+  }
+
+  .map-container {
+    text-align: center;
+    margin: 30px auto;
+  }
+  .map-container img {
+    max-width: 70%;    /* adjust for smaller figure */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  .map-caption {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  figure {
+    margin: 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    background: #fafafa;
+  }
+  figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  figcaption {
+    font-size: 0.85rem;
+    margin-top: 6px;
+    color: #333;
+    word-break: break-word;
+    text-align: center;
+  }
+</style>
+
+</head>
+<body>
+  <h1>HI Spectral Fitting Results of the LMC from GASKAP-HI survey</h1>
+  
+  <div class="map-container">
+    <img src="/Users/retarchen/Desktop/grad_1.0/MC.nosync/step/LMC_all/web/Map_source.png" alt="Source Map">
+    <div class="map-caption">
+      Figure: Overview map of all background radio sources used for HI absorption fitting in the LMC, the background is the HI column density map.
+    </div>
+  </div>
+
+  <div class="center" style="max-width:800px;margin:0 auto;">
+    <p>This site hosts the spectral fitting results and derived data after Gaussian decomposition of the HI emission and absorption spectra.
+       You can view summary data files below or browse the full set of spectra.</p>
+       
+
+    <h3>Download data (CSV):</h3>
+    <ul style="list-style-type:none;line-height:1.8;">
+      <li><a href="Fulldata.csv">Fulldata.csv</a></li>
+      <li><a href="CNMonlydata.csv">CNMonlydata.csv</a></li>
+      <li><a href="WNMonlydata.csv">WNMonlydata.csv</a></li>
+    </ul>
+
+    <p style="margin-top:25px;">
+      <a href="spectra.html" class="button">View All Spectra →</a>
+    </p>
+  </div>
+</body>
+</html>
